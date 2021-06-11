@@ -2,7 +2,7 @@
 
 Olá! Meu nome é Pablo, sou um desenvolver Full Stack apaixonado pelo o que faço, interessado sempre em evoluir e aprender cada vez mais, e também em repassar adiante todo meu conhecimento.
 
-Atualmente estou cursando **Trybe**, onde eu pude ter o privilegio de adquirir todo o meu conhecimento de Frontend e Backend, e encontrando uma linguagem da qual amo trabalhar, que é o Javascript. <3
+Atualmente estou cursando **Trybe**, onde eu pude ter o privilegio de adquirir todo o meu conhecimento de Frontend e Backend(com a linguagem Javascript), e encontrando a certeza da minha paixão por esse vasto mundo da programação. <3
 
 Durante a minha trajetória até então, sempre encarei muitos desafios, muitas vezes achava que mal ia conseguir, mas, com bastante força de vontade e de adquirir conhecimento, sempre consegui superar todas elas e atingir o resultado que gostaria. :)
 
