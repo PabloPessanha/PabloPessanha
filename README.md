@@ -36,7 +36,7 @@ class AboutMe {
   
   learningFrameworks() {
     this.skills.backend.push('Spring Boot');
-    this.skills.frontend.push('Angular');
+    this.skills.frontend.push('NextJs');
   }
   
   lookingAt() {
