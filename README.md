@@ -15,6 +15,7 @@ class AboutMe {
     this.worksAs = 'Backend developer';
     this.worksAt = 'Tasken';
     this.email = 'pablopessanh@gmail.com';
+    this.linkedIn = 'linkedin.com/in/pablopessanha/'
     this.skills = {
       languages: ['Javascript', 'Typescript', 'Python', 'Shell Script'],
       backend: ['NodeJS', 'Express', 'NestJS', 'Sequelize', 'TypeORM', 'GraphQL', 'Swagger'],
