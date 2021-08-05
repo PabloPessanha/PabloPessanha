@@ -11,7 +11,7 @@ Durante a minha trajetória até então, sempre encarei muitos desafios, muitas 
 class AboutMe {
   constructor() {
     this.fullName = 'Pablo Pessanha';
-    this.birthday = new Date('06/24/1997');
+    this.birthdate = new Date('06/24/1997');
     this.employment = 'Backend developer';
     this.worksAt = 'Tasken';
     this.email = 'pablopessanh@gmail.com';
