@@ -6,5 +6,43 @@ Atualmente estou cursando **Trybe**, onde eu pude ter o privilegio de adquirir t
 
 Durante a minha trajetória até então, sempre encarei muitos desafios, muitas vezes achava que mal ia conseguir, mas, com bastante força de vontade e de adquirir conhecimento, sempre consegui superar todas elas e atingir o resultado que gostaria. :)
 
-#### As ferramentas que utilizei/utilizo nos meus projetos:
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="30" heigth="30"/> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" width="30" heigth="30"/> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="30" heigth="30"/> <img src="https://testing-library.com/img/octopus-128x128.png" width="30" heigth="30"/> <img src="https://user-images.githubusercontent.com/69815487/121431243-87084e80-c94f-11eb-8d3e-989677ec54ee.png" width="30" heigth="30"/> <img src="https://marcas-logos.net/wp-content/uploads/2020/11/MySQL-logo.png" width="30" heigth="30"/> <img src="https://4.bp.blogspot.com/-X7UPkOQjQuQ/WuHLUEM7SDI/AAAAAAAAAOY/rXGXSOfPP2ckF_cSOC3C5d3B_BhIgNcxACLcBGAs/s1600/mongodb%2B%25282%2529.png" width="30" heigth="30"/>  <img src="https://miro.medium.com/max/600/1*lUNmBw_oyS2ADWqZs4DLOA.png" width="30" heigth="30"/> <img src="https://git-scm.com/images/logos/logomark-orange@2x.png" width="30" heigth="30"/>
+#### Descubra um pouco mais sobre meus conhecimentos/interesses lendo o código abaixo:
+```js
+class AboutMe {
+  constructor() {
+    this.fullName = 'Pablo Pessanha';
+    this.birthday = new Date('06/24/1997');
+    this.employment = 'Backend developer';
+    this.worksAt = 'Tasken';
+    this.email = 'pablopessanh@gmail.com';
+    this.skills = {
+      languages: ['Javascript', 'Typescript', 'Python', 'Shell Script'],
+      backend: ['NodeJS', 'Express', 'NestJS'],
+      frontend: ['HTML5', 'CSS3', 'SCSS', 'ReactJS'],
+      databases: ['MySQL', 'SQL Server', 'Postgres', 'MongoDB'],
+      tools: {
+        versionControl: ['Git', 'GitHub'],
+        tests: ['Jest', 'React Testing Library'],
+        containers: ['Docker'],
+        cloud: ['Heroku'],
+        ORM: ['Sequelize', 'TypeORM'],
+      },
+    }
+  };
+    
+  learningLanguages() {
+    this.skills.languages.push('Java');
+  }
+  
+  learningFrameworks() {
+    this.skills.backend.push('Spring Boot');
+    this.skills.frontend.push('Angular');
+  }
+  
+  lookingAt() {
+    this.lookingAt.languages = ['GoLang', 'Ruby', 'Elixir'];
+    this.lookingAt.tools.cloud = ['AWS', 'Digital Ocean'];
+    this.lookingAt.tools.containers = ['Docker Compose', 'Kubernetes']
+  }
+}
+```
