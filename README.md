@@ -17,7 +17,7 @@ class AboutMe {
     this.email = 'pablopessanh@gmail.com';
     this.skills = {
       languages: ['Javascript', 'Typescript', 'Python', 'Shell Script'],
-      backend: ['NodeJS', 'Express', 'NestJS'],
+      backend: ['NodeJS', 'Express', 'NestJS', 'Sequelize', 'TypeORM', 'GraphQL', 'Swagger'],
       frontend: ['HTML5', 'CSS3', 'SCSS', 'ReactJS'],
       databases: ['MySQL', 'SQL Server', 'Postgres', 'MongoDB'],
       tools: {
@@ -25,7 +25,6 @@ class AboutMe {
         tests: ['Jest', 'React Testing Library'],
         containers: ['Docker'],
         cloud: ['Heroku'],
-        ORM: ['Sequelize', 'TypeORM'],
       },
     }
   };
