@@ -28,7 +28,7 @@ class AboutMe {
         cloud: ['Heroku'],
       },
     }
-  };
+  }
     
   learningLanguages() {
     this.skills.languages.push('Java');
