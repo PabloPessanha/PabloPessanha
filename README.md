@@ -15,7 +15,7 @@ class AboutMe {
     this.worksAs = 'Backend developer';
     this.worksAt = 'Tasken';
     this.email = 'pablopessanh@gmail.com';
-    this.linkedIn = 'linkedin.com/in/pablopessanha/'
+    this.linkedIn = 'linkedin.com/in/pablopessanha/';
     this.skills = {
       languages: ['Javascript', 'Typescript', 'Python', 'Shell Script'],
       backend: ['NodeJS', 'Express', 'NestJS', 'Sequelize', 'TypeORM', 'GraphQL', 'Swagger'],
@@ -42,7 +42,7 @@ class AboutMe {
   lookingAt() {
     this.lookingAt.languages = ['GoLang', 'Ruby', 'Elixir'];
     this.lookingAt.tools.cloud = ['AWS', 'Digital Ocean'];
-    this.lookingAt.tools.containers = ['Docker Compose', 'Kubernetes']
+    this.lookingAt.tools.containers = ['Docker Compose', 'Kubernetes'];
   }
 }
 ```
