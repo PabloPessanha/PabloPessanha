@@ -30,13 +30,10 @@ class AboutMe {
     }
   }
     
-  learningLanguages() {
-    this.skills.languages.push('Java');
-  }
   
   learningFrameworks() {
-    this.skills.backend.push('Spring Boot');
     this.skills.frontend.push('NextJs');
+    this.skills.mobile = ['React Native'];
   }
   
   lookingAt() {
