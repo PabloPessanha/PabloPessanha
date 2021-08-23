@@ -19,17 +19,17 @@ class AboutMe {
     this.skills = {
       languages: ['Javascript', 'Typescript', 'Python', 'Shell Script'],
       backend: ['NodeJS', 'Express', 'NestJS', 'Sequelize', 'TypeORM', 'GraphQL', 'Swagger'],
-      frontend: ['HTML5', 'CSS3', 'SCSS', 'ReactJS'],
+      frontend: ['HTML5', 'CSS3', 'SCSS', 'ReactJS', 'Styled Components'],
       databases: ['MySQL', 'SQL Server', 'Postgres', 'MongoDB'],
       tools: {
-        versionControl: ['Git', 'GitHub'],
+        versionControl: ['Git', 'GitHub', 'BitBucket'],
         tests: ['Jest', 'React Testing Library'],
         containers: ['Docker'],
         cloud: ['Heroku'],
+        others: ['Jira', 'Figma'];
       },
     }
   }
-    
   
   learningFrameworks() {
     this.skills.frontend.push('NextJs');
