@@ -12,7 +12,7 @@ class AboutMe {
   constructor() {
     this.fullName = 'Pablo Pessanha';
     this.birthdate = new Date('06/24/1997');
-    this.worksAs = 'Backend developer';
+    this.worksAs = 'Fullstack developer';
     this.worksAt = 'Tasken';
     this.email = 'pablopessanh@gmail.com';
     this.linkedIn = 'linkedin.com/in/pablopessanha/';
