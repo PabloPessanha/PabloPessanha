@@ -37,7 +37,8 @@ class AboutMe {
   }
   
   lookingAt() {
-    this.lookingAt.languages = ['Clojure', 'Ruby', 'Elixir'];
+    this.lookingAt.languages = ['Clojure', 'Dart', 'Elixir'];
+    this.lookingAt.mobile = ['Flutter'];
     this.lookingAt.tools.cloud = ['AWS', 'Digital Ocean'];
     this.lookingAt.tools.containers = ['Docker Compose', 'Kubernetes'];
   }
