@@ -29,18 +29,18 @@ class AboutMe {
       tools: {
         versionControl: ['Git', 'GitHub', 'BitBucket'],
         tests: ['Jest', 'React Testing Library', 'MSW'],
-        containers: ['Docker'],
-        cloud: ['Heroku'],
+        containers: ['Docker', 'Docker Compose'],
+        cloud: ['Heroku', 'Vercel'],
         others: ['Jira', 'Figma'];
       },
     }
   }
   
   lookingAt() {
-    this.lookingAt.languages = ['Clojure', 'Dart', 'Elixir'];
+    this.lookingAt.languages = ['Clojure', 'Elixir'];
     this.lookingAt.mobile = ['Flutter'];
     this.lookingAt.tools.cloud = ['AWS', 'Digital Ocean'];
-    this.lookingAt.tools.containers = ['Docker Compose', 'Kubernetes'];
+    this.lookingAt.tools.orchestration = ['Kubernetes'];
   }
 }
 ```
