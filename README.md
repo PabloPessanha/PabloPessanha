@@ -30,16 +30,17 @@ class AboutMe {
         versionControl: ['Git', 'GitHub', 'BitBucket'],
         tests: ['Jest', 'React Testing Library', 'MSW'],
         containers: ['Docker', 'Docker Compose'],
-        cloud: ['Heroku', 'Vercel'],
-        others: ['Jira', 'Figma'];
+        cloud: ['Heroku', 'Vercel', 'AWS'],
+        CI: ['Github Actions'],
+        others: ['Jira', 'Figma']
       },
     }
   }
   
   lookingAt() {
-    this.lookingAt.languages = ['Clojure', 'Elixir'];
+    this.lookingAt.languages = ['Dart'];
     this.lookingAt.mobile = ['Flutter'];
-    this.lookingAt.tools.cloud = ['AWS', 'Digital Ocean'];
+    this.lookingAt.tools.cloud = ['Digital Ocean'];
     this.lookingAt.tools.orchestration = ['Kubernetes'];
   }
 }
