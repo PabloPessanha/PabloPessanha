@@ -41,7 +41,6 @@ class AboutMe {
     this.lookingAt.languages = ['Dart'];
     this.lookingAt.mobile = ['Flutter'];
     this.lookingAt.tools.cloud = ['Digital Ocean'];
-    this.lookingAt.tools.orchestration = ['Kubernetes'];
   }
 }
 ```
