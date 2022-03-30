@@ -13,34 +13,38 @@ Atualmente estou atuando como desenvolvedor fullstack pela **Warren**.
 #### Descubra um pouco mais sobre meus conhecimentos/interesses lendo o código abaixo:
 ```ts
 class AboutMe {
-  constructor() {
-    this.fullName = 'Pablo Pessanha';
-    this.birthdate = new Date('06/24/1997');
-    this.worksAs = 'Software engineer';
-    this.worksAt = 'Warren';
-    this.email = 'pablopessanh@gmail.com';
-    this.linkedIn = 'linkedin.com/in/pablopessanha/';
-    this.skills = {
+  personalInfos() {
+    return {
+      fullName: 'Pablo Pessanha',
+      birthdate: new Date('06/24/1997'),
+      email: 'pablopessanh@gmail.com',
+      linkedin: 'https://www.linkedin.com/in/pablopessanha',
+      role: 'Fullstack developer',
+      workingAt: 'Warren',
+      workingWith: ['Typescript', 'OOP', 'Hexagonal Architecture', 'VueJS', 'Github Actions', 'AWS'],
+    }
+  }
+
+  skills() {
+    return {
       languages: ['Javascript', 'Typescript', 'Python', 'Shell Script'],
       backend: ['NodeJS', 'Express', 'NestJS', 'Sequelize', 'TypeORM', 'GraphQL', 'Swagger'],
       frontend: ['HTML5', 'CSS3', 'SCSS', 'Styled Components', 'ReactJS', 'NextJS', 'VueJS', 'NuxtJS'],
       mobile: ['React Native'],
-      databases: ['MySQL', 'SQL Server', 'Postgres', 'MongoDB'],
+      database: ['MySQL', 'SQL Server', 'Postgres', 'MongoDB'],
       tools: {
         versionControl: ['Git', 'GitHub', 'BitBucket'],
         tests: ['Jest', 'React Testing Library', 'MSW'],
         containers: ['Docker', 'Docker Compose'],
         cloud: ['Heroku', 'Vercel', 'AWS'],
-        CI: ['Github Actions'],
-        others: ['Jira', 'Figma']
-      },
+        CI: ['Github Actions', 'Jenkins'],
+        others: ['Jira', 'Figma', 'Slack']
+      }
     }
   }
-  
+
   lookingAt() {
-    this.lookingAt.languages = ['Dart'];
-    this.lookingAt.mobile = ['Flutter'];
-    this.lookingAt.tools.cloud = ['Digital Ocean'];
+    return ['Dart', 'Flutter', 'Kafka']
   }
 }
 ```
