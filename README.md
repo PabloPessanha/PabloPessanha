@@ -12,7 +12,7 @@ Atualmente estou atuando como desenvolvedor fullstack pela **Warren**.
 
 #### Descubra um pouco mais sobre meus conhecimentos/interesses lendo o código abaixo:
 ```ts
-class AboutMe {
+class AboutMe extends Pablo {
   public static personalInfos() {
     return {
       fullName: 'Pablo Pessanha',
