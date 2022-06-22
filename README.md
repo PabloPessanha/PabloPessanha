@@ -13,7 +13,7 @@ Atualmente estou atuando como desenvolvedor fullstack pela **Warren**.
 #### Descubra um pouco mais sobre meus conhecimentos/interesses lendo o código abaixo:
 ```ts
 class AboutMe extends Pablo {
-  public static personalInfos() {
+  public personalInfos() {
     return {
       fullName: 'Pablo Pessanha',
       birthdate: new Date('06/24/1997'),
@@ -25,7 +25,7 @@ class AboutMe extends Pablo {
     }
   }
 
-  public static skills() {
+  public skills() {
     return {
       languages: ['Javascript', 'Typescript', 'Python', 'Shell Script'],
       backend: ['NodeJS', 'Express', 'NestJS', 'Sequelize', 'TypeORM', 'GraphQL', 'Swagger'],
@@ -43,7 +43,7 @@ class AboutMe extends Pablo {
     }
   }
 
-  public static lookingAt() {
+  public lookingAt() {
     return ['Dart', 'Flutter', 'Kafka']
   }
 }
