@@ -19,9 +19,9 @@ class AboutMe extends Pablo {
       birthdate: new Date('06/24/1997'),
       email: 'pablopessanh@gmail.com',
       linkedin: 'https://www.linkedin.com/in/pablopessanha',
-      role: 'Fullstack developer',
-      workingAt: 'Warren',
-      workingWith: ['Typescript', 'OOP', 'Hexagonal Architecture', 'VueJS', 'Github Actions', 'AWS'],
+      role: 'Middle Fullstack developer',
+      workingAt: 'Play9',
+      workingWith: ['Typescript', 'OOP', 'ReactJS', 'Github Actions', 'AWS'],
     }
   }
 
