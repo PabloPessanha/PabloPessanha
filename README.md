@@ -20,7 +20,6 @@ class AboutMe extends Pablo {
       email: 'pablopessanh@gmail.com',
       linkedin: 'https://www.linkedin.com/in/pablopessanha',
       role: 'Middle Fullstack developer',
-      workingAt: 'Play9',
       workingWith: ['Typescript', 'OOP', 'ReactJS', 'Github Actions', 'AWS'],
     }
   }
