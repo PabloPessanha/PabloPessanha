@@ -8,7 +8,7 @@ Durante a minha trajetória até então, sempre encarei muitos desafios, muitas 
 
 Já atuei como desenvolvedor fullstack tanto para projetos pessoais, como para empresas e trabalhos tercerizados.
 
-Atualmente estou atuando como desenvolvedor fullstack pela **Warren**.
+Atualmente estou atuando como Tech Leader pelo **Dr.receita**.
 
 #### Descubra um pouco mais sobre meus conhecimentos/interesses lendo o código abaixo:
 ```ts
@@ -19,8 +19,8 @@ class AboutMe extends Pablo {
       birthdate: new Date('06/24/1997'),
       email: 'pablopessanh@gmail.com',
       linkedin: 'https://www.linkedin.com/in/pablopessanha',
-      role: 'Middle Fullstack developer',
-      workingWith: ['Typescript', 'OOP', 'ReactJS', 'Github Actions', 'AWS'],
+      role: 'Tech Leader',
+      workingWith: ['Typescript', 'OOP', 'Jest', 'ReactJS', 'NextJS', 'Styled components', 'Github Actions',]
     }
   }
 
@@ -33,17 +33,15 @@ class AboutMe extends Pablo {
       database: ['MySQL', 'SQL Server', 'Postgres', 'MongoDB'],
       tools: {
         versionControl: ['Git', 'GitHub', 'BitBucket'],
+        authentication: ['JWT'],
+        messaging: ['Apache Kafka', 'RabbitMQ'],
         tests: ['Jest', 'React Testing Library', 'MSW'],
         containers: ['Docker', 'Docker Compose'],
         cloud: ['Heroku', 'Vercel', 'AWS'],
         CI: ['Github Actions', 'Jenkins'],
-        others: ['Jira', 'Figma', 'Slack']
+        others: ['Jira', 'Figma', 'Slack', 'Discord', 'Workchat', 'Monday']
       }
     }
-  }
-
-  public lookingAt() {
-    return ['Dart', 'Flutter', 'Kafka']
   }
 }
 ```
