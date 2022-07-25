@@ -20,7 +20,7 @@ class AboutMe extends Pablo {
       email: 'pablopessanh@gmail.com',
       linkedin: 'https://www.linkedin.com/in/pablopessanha',
       role: 'Tech Leader',
-      workingWith: ['Typescript', 'OOP', 'Jest', 'ReactJS', 'NextJS', 'Styled components', 'Github Actions',]
+      workingWith: ['Typescript', 'OOP', 'Jest', 'ReactJS', 'NextJS', 'Styled components']
     }
   }
 
