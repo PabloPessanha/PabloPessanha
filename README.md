@@ -33,7 +33,7 @@ class AboutMe extends Pablo {
       database: ['MySQL', 'SQL Server', 'Postgres', 'MongoDB'],
       tools: {
         versionControl: ['Git', 'GitHub', 'BitBucket'],
-        authentication: ['JWT'],
+        authentication: ['JWT', 'OAuth2'],
         messaging: ['Apache Kafka', 'RabbitMQ'],
         tests: ['Jest', 'React Testing Library', 'MSW'],
         containers: ['Docker', 'Docker Compose'],
