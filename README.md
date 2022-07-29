@@ -13,10 +13,8 @@ Atualmente estou atuando como Tech Leader pelo **Dr.receita**.
 #### Descubra um pouco mais sobre meus conhecimentos/interesses lendo o código abaixo:
 ```ts
 class AboutMe extends Pablo {
-  public personalInfos() {
+  public infoAndContact() {
     return {
-      fullName: 'Pablo Pessanha',
-      birthdate: new Date('06/24/1997'),
       email: 'pablopessanh@gmail.com',
       linkedin: 'https://www.linkedin.com/in/pablopessanha',
       role: 'Tech Leader',
