@@ -8,8 +8,6 @@ Durante a minha trajetória até então, sempre encarei muitos desafios, muitas 
 
 Já atuei como desenvolvedor fullstack tanto para projetos pessoais, como para empresas e trabalhos tercerizados.
 
-Atualmente estou atuando como Tech Leader pelo **Dr.receita**.
-
 #### Descubra um pouco mais sobre meus conhecimentos/interesses lendo o código abaixo:
 ```ts
 class AboutMe extends Pablo {
@@ -17,8 +15,7 @@ class AboutMe extends Pablo {
     return {
       email: 'pablopessanh@gmail.com',
       linkedin: 'https://www.linkedin.com/in/pablopessanha',
-      role: 'Tech Leader',
-      workingWith: ['Typescript', 'OOP', 'Jest', 'ReactJS', 'NextJS', 'Styled components']
+      phone: '+55 21 98519-9407'
     }
   }
 
