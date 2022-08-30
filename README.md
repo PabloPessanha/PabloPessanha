@@ -14,8 +14,7 @@ class AboutMe extends Pablo {
   public infoAndContact() {
     return {
       email: 'pablopessanh@gmail.com',
-      linkedin: 'https://www.linkedin.com/in/pablopessanha',
-      phone: '+55 21 98519-9407'
+      linkedin: 'https://www.linkedin.com/in/pablopessanha'
     }
   }
 
