@@ -20,10 +20,10 @@ class AboutMe extends Pablo {
 
   public skills() {
     return {
-      languages: ['Javascript', 'Typescript', 'Python', 'Shell Script'],
+      languages: ['Java', 'Javascript', 'Typescript', 'Python', 'Shell Script'],
       backend: ['NodeJS', 'Express', 'NestJS', 'Sequelize', 'TypeORM', 'GraphQL', 'Swagger'],
       frontend: ['HTML5', 'CSS3', 'SCSS', 'Styled Components', 'ReactJS', 'NextJS', 'VueJS', 'NuxtJS'],
-      mobile: ['React Native'],
+      mobile: ['React Native', 'Flutter'],
       database: ['MySQL', 'SQL Server', 'Postgres', 'MongoDB'],
       tools: {
         versionControl: ['Git', 'GitHub', 'BitBucket'],
